@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Big Shoulders Display', 'cursive';
+font-family: 'Lexend Deca', sans-serif;
+font-family: "Outfit", sans-serif;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container{
+max-width: 800px;
+   color: white;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.sedans{
+background-color: hsl(31, 77%, 52%);
+padding: 35px;
+}
+.sedans h1, img {
+    padding-bottom: 15px;
+}
+.sedans p {
+    padding-bottom: 5rem;
+}
+.sedans a {
+    color: hsl(31, 77%, 52%);
+}
+.suvs{
+background-color: hsl(184, 100%, 22%);
+padding: 35px;
+}
+.suvs h1, img {
+    padding-bottom: 15px;
+}
+.suvs p {
+    padding-bottom: 5rem;
+}
+.suvs a {
+    color: hsl(184, 100%, 22%);
+}
+.luxury{
+background-color: hsl(179, 100%, 13%);
+padding: 35px;
+}
+.luxury h1, img {
+    padding-bottom: 15px;
+}
+.luxury p {
+    padding-bottom: 5rem;
+}
+.luxury a {
+    color: hsl(179, 100%, 13%)
+}
+a{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: 0.8s;
+    text-decoration: none;
+    color: #fff;
+
+  }
+  
+a:hover{
+    background-color: transparent;
+    cursor: pointer;
+   
+  }
+ a:hover{
+   color: white;
+  }
+p{
+line-height: 2;
+color: hsla(0, 0%, 100%, 0.75);
+font-size: 15px;
+}
+h1{
+    font-family: 'Big Shoulders Display', 'cursive';
+}
+
+@media (max-width: 750px) {
+.wrapper{
+flex-direction: column;
+}
+.container{
+    max-width: 90vh;
+    max-height: 90vh;
+    margin: 20px;
+
+}
+}
